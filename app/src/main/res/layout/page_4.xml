@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Controller.Page4Activity">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Evaluation"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/bilan"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:gravity="center"
+        android:text="Indiquez la probabilité du risque :"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133" />
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="@dimen/size_button_width"
+        android:layout_height="@dimen/size_button_height"
+        android:background="@drawable/border"
+        android:text="Next"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957" />
+
+    <Button
+        android:id="@+id/previous"
+        android:layout_width="@dimen/size_button_width"
+        android:layout_height="@dimen/size_button_height"
+        android:background="@drawable/border"
+        android:text="Previous"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957" />
+
+    <TableLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36">
+
+        <TableRow
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/negligeable1"
+                android:layout_width="60dp"
+                android:layout_height="112dp"
+                android:background="@drawable/border2"
+                android:text="Négligeable"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/faible1"
+                android:layout_width="60dp"
+                android:layout_height="112dp"
+                android:background="@android:color/holo_green_light"
+                android:text="Faible"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/moyen1"
+                android:layout_width="60dp"
+                android:layout_height="112dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="Moyen"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/grave1"
+                android:layout_width="60dp"
+                android:layout_height="112dp"
+                android:background="@android:color/holo_red_light"
+                android:text="Grave"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/tresGrave1"
+                android:layout_width="60dp"
+                android:layout_height="112dp"
+                android:background="@drawable/border3"
+                android:text="Très\nGrave"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="217dp"
+        android:layout_height="31dp"
+        android:text="Gravité"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="194dp"
+        android:layout_height="36dp"
+        android:text="Fréquence"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515" />
+
+    <TableLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.650">
+
+        <TableRow
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/negligeable2"
+                android:layout_width="60dp"
+                android:layout_height="112dp"
+                android:background="@drawable/border2"
+                android:text="Négligeable"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/faible2"
+                android:layout_width="60dp"
+                android:layout_height="112dp"
+                android:background="@android:color/holo_green_light"
+                android:text="Faible"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/moyen2"
+                android:layout_width="60dp"
+                android:layout_height="112dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="Moyen"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/grave2"
+                android:layout_width="60dp"
+                android:layout_height="112dp"
+                android:background="@android:color/holo_red_light"
+                android:text="Grave"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/tresGrave2"
+                android:layout_width="60dp"
+                android:layout_height="112dp"
+                android:background="@drawable/border3"
+                android:text="Très\nGrave"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

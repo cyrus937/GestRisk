@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TextViews -->
+    <dimen name="size_text_title">12sp</dimen>
+    <dimen name="size_text_title1">30sp</dimen>
+    <dimen name="size_text_description">10sp</dimen>
+    <!-- Images -->
+    <dimen name="size_image_height">30dip</dimen>
+    <dimen name="size_image_width">30dip</dimen>
+    <!-- Buttons -->
+    <dimen name="size_button_height">30dp</dimen>
+    <dimen name="size_button_width">75dp</dimen>
+    <!-- LinearLayout -->
+    <dimen name="size_linear_layout_height">170dp</dimen>
+    <dimen name="size_linear_layout_width">340dp</dimen>
+    <dimen name="size_linear_layout_marginTop">200dp</dimen>
+    <dimen name="size_linear_layout_marginTop1">19dp</dimen>
+    <dimen name="size_linear_layout_marginTop2">30dp</dimen>
+</resources>
